@@ -62,8 +62,8 @@ font-weight: 600;
     border-radius: 50%;
     margin: 0;
     padding: 0;
-    left: 440px;
-    bottom: 26px;
+    left: 19px;
+    top: -27px;
 }
 
 .hero {
@@ -170,7 +170,6 @@ font-weight: 400;
 }
 .collection-des{
     color: rgb(120, 120, 133);
-font-family: Inter;
 font-size: 14px;
 font-weight: 700;
 }
@@ -193,13 +192,11 @@ font-weight: 700;
 }
 .feature-title{
     color: rgb(10, 8, 38);
-font-family: Poppins;
 font-size: 38px;
 font-weight: 700;
 }
 .feature-des{
     color: rgb(108, 108, 108);
-font-family: Poppins;
 font-size: 16px;
 font-weight: 700;
 }
@@ -209,7 +206,6 @@ font-weight: 700;
 height: 44px;
 border: none;
 color: rgb(255, 255, 255);
-font-family: Poppins;
 font-size: 16px;
 font-weight: 700;
 margin-top: 10px;
@@ -230,13 +226,11 @@ footer{
 .footer-title{
    
     color: rgb(255, 255, 255);
-font-family: Poppins;
 font-size: 24px;
 font-weight: 700;
 }
 .copyright{
     color: rgb(217, 219, 225);
-font-family: Manrope;
 font-size: 14px;
 font-weight: 700;
 }
@@ -256,9 +250,7 @@ font-weight: 700;
     }
 
 
-    .dot {
-        display: none;
-    }
+    
 
     .navbar,
     .hero,
@@ -346,7 +338,5 @@ height: 188px;
     .hero-logos,.popular-collection,.feature {
         margin: 70px 30px;
     }
-    .dot{
-        display: none;
-    }
+    
 }
