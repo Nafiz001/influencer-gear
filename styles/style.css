@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nav-title{
+    color: rgb(58, 58, 58);
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    color: rgb(58, 58, 58);
+font-size: 16px;
+font-weight: 600;
+    text-decoration: none;
+}
+
+#search,
+#cart {
+    vertical-align: middle;
+}
+
+.dot {
+    position: relative;
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    left: 440px;
+    bottom: 26px;
+}
+
+.hero {
+    margin: 50px 132px 0 120px;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-title{
+    color: rgb(58, 58, 58);
+font-size: 52px;
+font-weight: 700;
+text-align: left;
+}
+.hero-des{
+    color: rgb(58, 58, 58);
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+}
+.hero-btn {
+    border-radius: 41px;
+    width: 196px;
+    height: 44px;
+    border: none;
+    margin-top: 20px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700;
+}
+
+.hero-img-container {
+    background-image: url("../images/Circle\ design.svg");
+    width: 475px;
+    height: 475px;
+}
+
+.hero-img {
+    margin: 30px 33px 31px 2px;
+}
+
+.hero-logos {
+    margin: 105px 227px 34px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.hero-logo {
+    width: 84px;
+    height: 25.28px;
+}
+
+hr {
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.378%, rgba(192, 204, 218, 0.1) 100%);
+    margin: 0 auto;
+}
+
+.popular-collection {
+    margin: 100px 196px 0;
+}
+
+.popular-collection-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(58, 58, 58);
+font-size: 28px;
+font-weight: 600;
+}
+
+.collection-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection {
+    padding-left: 14px;
+    border-radius: 5px;
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+
+}
+.collection-title{
+    color: rgb(24, 25, 31);
+
+font-size: 28px;
+font-weight: 500;
+}
+.price{
+    color: rgba(0, 0, 0, 0.87);
+
+font-size: 24px;
+font-weight: 400;
+}
+.collection-des{
+    color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+}
+.collection-img {
+    margin: 16px;
+    margin-left: 0;
+}
+.see-more{
+    color: magenta;
+    margin: 50px;
+    text-align: end;
+    text-decoration: none;
+}
+.feature{
+    margin: 100px 165px 0;
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+    align-items: center;
+}
+.feature-title{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+}
+.feature-des{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+}
+.feature-btn{
+    background: rgb(224, 44, 109);
+    width: 155px;
+height: 44px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+margin-top: 10px;
+}
+.arrow{
+    vertical-align: middle;
+}
+footer{
+    margin-top: 120px;
+    height: 211px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+   
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+}
+.copyright{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+}
+.footer-logos{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-links ul {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .dot {
+        display: none;
+    }
+
+    .navbar,
+    .hero,
+    .hero-logos {
+        margin: 50px 0;
+    }
+    .hero-title,.hero-des,.hero-btn{
+        text-align: center;
+    }
+
+    .hero-logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-banner,.feature {
+        flex-direction: column-reverse;
+        margin: 50px auto;
+    }
+
+
+    .hero-img-container {
+        width: 257px;
+        height: 257px;
+        background-size: contain;
+    }
+
+    .hero-img {
+        width: 202px;
+        height: 190px;
+        margin: 51px 33px 15px 22px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    hr {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .popular-collection {
+        margin: 0 auto;
+    }
+
+    .collection {
+        width: auto;
+        margin: 16px auto;
+        padding: 15px auto;
+    }
+
+    .collection-img {
+        width: auto;
+    }
+
+    .collection-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-img img{
+        width: 299px;
+height: 188px;
+        
+    }
+    .feature-content{
+        text-align: center;
+    }
+    .footer-logos{
+        justify-content: center;
+    }
+    
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+    .collection-container {
+        column-gap: 150px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .navbar,
+    .hero,
+    .hero-logos,.popular-collection,.feature {
+        margin: 70px 30px;
+    }
+    .dot{
+        display: none;
+    }
+}
